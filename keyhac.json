@@ -12,7 +12,7 @@
 		}
 	},
 	"bin": [
-		"keyhac.exe"
+		"keyhac\keyhac.exe"
 	],
 	"checkver": {
 		"url": "https://sites.google.com/site/craftware/keyhac-ja",
