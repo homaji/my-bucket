@@ -1,0 +1,22 @@
+{
+	"homepage": "https://sites.google.com/site/craftware/keyhac-ja",
+	"version": "182",
+	"architecture": {
+		"64bit": {
+			"url": "http://crftwr.github.io/keyhac/download/keyhac_182.zip",
+			"hash": ""
+		},
+		"32bit": {
+			"url": "http://crftwr.github.io/keyhac/download/keyhac_182.zip",
+			"hash": ""
+		}
+	},
+	"bin": [
+		"keyhac.exe"
+	],
+	"checkver": {
+		"url": "https://sites.google.com/site/craftware/keyhac-ja",
+		"re": "Keyhac for Windows ver(?<v1>[\\d])+.+($<v2>[\\d]+.[\\d])",
+		"replace": "${v1}${v2}"
+	}
+}
