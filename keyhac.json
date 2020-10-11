@@ -11,8 +11,12 @@
 			"hash": ""
 		}
 	},
-	"bin": [
-		"keyhac\keyhac.exe"
+	"bin": "keyhac\\keyhac.exe",
+	"shortcuts":[
+		[
+			"keyhac\\keyhac.exe",
+			"keyhac" 
+		]
 	],
 	"checkver": {
 		"url": "https://sites.google.com/site/craftware/keyhac-ja",
